@@ -56,7 +56,8 @@ This file contains metadata for the pylons in the corresponding LiDAR scene.
 
 ### Coordinate shift `shift.csv`
 
-The LiDAR scenes use a global shift to reduce large coordinate magnitudes.
+The LiDAR scenes use a global shift to minimize the impact of floating point
+inaccuracies due to large coordinate magnitudes.
 
 | Column | Meaning |
 | --- | --- |
