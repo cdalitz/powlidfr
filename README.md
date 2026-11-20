@@ -137,7 +137,7 @@ for computing the evaluation indices *mean(IoU)* and *segmentation error*
 There is also a python script `compare_files.ps` that demonstrate the
 usage of these functions. Example usage:
 
-    python3 compare_files.py groundtruth.las segementation.csv
+    python3 compare_files.py examples/G2.las examples/S2.las
 
 
 Authors & Copyright
