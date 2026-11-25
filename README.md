@@ -135,8 +135,8 @@ for computing the evaluation indices *mean(IoU)* and *segmentation error*
    Labels of test segmentation as an integer sequence of the same length as
    *points*. Points without labels can have labels `None`, `NA`, or `-1`. 
 
-There is also a python script `compare_files.ps` that demonstrate the
-usage of these functions. Example usage:
+There is also a python script `compare_files.py` that demonstrates usage
+of these functions. Example usage:
 
     python3 compare_files.py examples/G2.las examples/S2.las
 
